@@ -1,0 +1,17 @@
+body{background-color:rgba(0, 0, 0,0.09 );background-image: url("../images/Luxor2.jpg");background-attachment: fixed;background-size: cover;background-blend-mode:overlay;color: white;}
+a{color: white;text-decoration: none;font-size: larger;}
+a:hover{color: aqua;text-decoration: underline;font-size: x-large;}
+.title{text-align: center;font-size: 65px;color: black;}
+button:hover{background-color: black;color: white;}
+.video{direction: rtl;}
+.map{direction: ltr;}
+#header{background-color: rgba(0, 0, 0, 0.774);color: aliceblue;text-align: center;font-size: 35px;}
+fieldset{background-color:#efefef65;padding:10px;border:1 px solid #CCC;margin: 20px; width: 1200px ;}
+legend{color: white;font-size: large;}
+p{background-color: rgba(0, 0, 0, 0.5);color: white;}
+h3{background-color: rgba(0, 0, 0, 0.5);color: white;}
+h4{background-color: rgba(0, 0, 0, 0.5);color: white;}
+.theme:hover{color: aqua;font-size: small;}
+button:hover{background-color: black;}
+.theme{text-decoration: none;color: black;}
+button{background-color: white;color: black;font-size:x-small;}

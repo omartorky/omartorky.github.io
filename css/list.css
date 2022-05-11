@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    background: linear-gradient(#01012e,#240019);
+    height: 110vh;
+font-family: system-ui;
+}
+section{
+    background: url('../images/stars1.png');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    text-align: center;
+    font-size: xx-large;
+}
+section ul:hover li a{
+  opacity: 0;
+}
+ul li{
+    list-style: none;
+    margin: 14px 0;
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    background: darkblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    display:inline-block;
+    width: 120px;
+    transition: 0.5s;
+    position: relative;
+    z-index: 10;
+    text-transform: uppercase;
+}
+
+section ul li a:hover{
+    transform: scale(1.5);
+    background: darkmagenta;
+    opacity: 1;
+}
+ul:hover li a{
+    opacity: 0;
+}
+ul li::after{
+    content: attr(data-text);
+    color: #a3680f;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 80px;
+    font-weight: 900;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    letter-spacing: 50px;
+}
+ul li:hover:after{
+    opacity: 2;   
+    letter-spacing: 5px; 
+}
+ul li::before{
+    content: '';
+    width: 180px;
+    height: 80px;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,70%);
+    border-radius: 50%;
+    box-shadow: 0 0 80px orangered;
+    opacity: 0;
+    transition: 0.5s;
+}
+ul li:hover::before{
+    opacity: 0.5;
+    width:80px;
+
+}
+.footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+}

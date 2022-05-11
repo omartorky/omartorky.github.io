@@ -1,0 +1,16 @@
+body{background-color: rgba(0, 0, 0, 0.3);background-image: url("https://www.shorouknews.com/uploadedimages/Gallery/original/River-nile.jpg");background-attachment: fixed;background-size: cover;background-blend-mode:overlay;}
+.test{background-color: rgba(0, 0, 0, 0.774);color: aliceblue;}
+.cairo{text-align: center;font-size: 55px;}
+.video{direction: rtl;}
+.map{direction: ltr;}
+a{text-decoration:none;color:aqua;}
+a:hover{text-decoration: underline;}
+fieldset{background-color:#efefef65;padding:10px;border:1 px solid #CCC;margin: 20px; width: 200px ;}
+.gallery{overflow:scroll;height: 260px;width: 1200px;}
+p{color: white;}
+legend{color: white;font-size: large; }
+#highdam{text-align: center;font-size: 55px;}
+#abusimbel{text-align: center;font-size: 55px;}
+.general{overflow:scroll;height: 500px;width: 1200px;}
+button:hover{background-color: black;color: white;}
+p{color: white;background-color: rgba(0, 0, 0, 0.5);}

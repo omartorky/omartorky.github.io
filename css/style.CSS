@@ -1,0 +1,33 @@
+body{background-color: rgba(0, 0, 0, 0.7);background-image: url("../images/cairo1211.jpg");background-attachment: fixed;background-size: cover;background-blend-mode:overlay;}
+.test{background-color: rgba(0, 0, 0, 0.774);color: aliceblue;}
+.cairo{text-align: center;font-size: 55px;}
+.video{direction: rtl;}
+.map{direction: ltr;}
+a{text-decoration:none;color:aqua;}
+a:hover{text-decoration: underline;}
+fieldset{background-color:#efefef65;padding:10px;border:1 px solid #CCC;margin: 20px; width: 200px ;}
+.gallery{overflow:scroll;height: 260px;width: 1200px;}
+p{color: white;padding: 1px;}
+legend{color: white;font-size: large; }
+#mo3ez{text-align: center;font-size: 55px;}
+#hussien{text-align: center;font-size: 55px;}
+.general{overflow:scroll;height: 500px;width: 1200px;}
+button:hover{background-color: black;color: white;}
+.footer{
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+::selection{
+
+    color: #ffd800;
+  }
+.read_more{ background-color: rgba(0,0,0,0);
+    cursor: pointer;
+    border: #979797;
+    color: blue;}
+.read_more:hover{text-decoration: underline;
+    border: #979797;
+    color: blue;}

@@ -1,0 +1,23 @@
+body {background-image: url(https://farm4.staticflickr.com/3621/3454436914_582354d1dc_o.jpg);background-attachment:fixed;background-size:cover;background-color: rgba(0,0,0,0.9);}
+.title{text-align: center;font-size: 55px;color: white;}
+.general{direction: rtl;overflow:scroll;height: 500px;width: 1200px;}
+legend{color: black;font-size: large; }
+.test{background-color: rgba(0, 0, 0, 0.774);color: aliceblue;text-align: center;}
+.video1{direction: rtl;}
+.map{direction: ltr;}
+fieldset{background-color:#efefef65;padding:10px;border:1 px solid #CCC;margin: 20px; width: 200px ;}
+p{color: white;background-color:rgba(0, 0, 0, 0.774);padding: 1px;}
+button:hover{background-color: black;color: white;}
+.footer{
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+a{text-decoration:none;color:aqua;}
+a:hover{text-decoration: underline;}
+::selection{
+    background-color: #122222d6;
+    color: #ffd800;
+  }

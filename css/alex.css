@@ -1,0 +1,79 @@
+body { 
+    background-image: url(../images/Alexandria_\(2007-05-036\).jpg);
+    background-attachment: fixed;
+    background-size:cover ;
+} 
+h1 {
+    text-align: center;
+     font-size: 100px;
+ }
+   p{
+     direction: rtl;
+        font-size: 27px;
+        text-align: right;
+        color: rgb(255, 255, 255);
+        padding: 30px ;
+        background-color:#575b5a75;
+        border-radius: 60px
+ }
+    .video1 {
+        position: relative;
+        right: -180px;
+        padding: 94px 0px;;
+ }
+ .mp{  
+    direction: rtl;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+    padding: 1px ;
+    background-color:#272827ba;
+    text-align: center;
+ }
+  hr{
+     margin: 60px;
+ }
+ .map{
+    position: relative;
+        width: 6px;
+        height: 9px;
+        left: 85.5%;
+        bottom: 798px;
+ }
+.k {
+    text-align: center;
+    color: rgb(21, 31, 163);
+    font-size: 49px;
+}
+.pi2{
+    position: relative;
+    right: 415px;
+   }
+   .pi3 {
+    position: relative;
+    right: -872px;
+    bottom: 556px;
+    width: 6px;
+    height: 6px;
+   }
+.pi1{
+    padding: 30px 0px;
+}
+h4{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 90px;
+   }
+   ::selection{
+    background-color: #122222d6;
+    color: #ffd800;
+  }
+  button:hover{background-color: black;color: white;}
+  .footer{
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+      width: 100%;
+  }
+  a{text-decoration:none;color:aqua;}
+  a:hover{text-decoration: underline;}
