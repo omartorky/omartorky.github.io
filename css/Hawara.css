@@ -37,16 +37,15 @@ h1 {
 
 hr{
     margin: 60px;
-}
 .pi2{
     position: relative;
-    right: 470px;
+    right: 410px;
     top: 50px;
 }
-.pi3 {
+pi3 {
     position: relative;
-    right: -962px;
-    bottom: 556px;
+    right: -848px;
+    bottom: 454px;
     width: 8px;
     height: 200px;
 }
