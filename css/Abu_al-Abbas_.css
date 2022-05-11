@@ -1,5 +1,5 @@
 body { 
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e5/Suez_canalst-Alexandria%2C_Egypt.jpg);
+    background-image: url(../images/Alexandria_\(2007-05-036\).jpg);
     background-attachment: fixed;
     background-size:cover ;
 }
@@ -9,7 +9,7 @@ body {
  }
 p{
     direction: rtl;
-    font-size: 27px;
+    font-size: 25px;
     text-align: right;
     color: rgb(255, 255, 255);
     padding: 30px ;
@@ -31,7 +31,7 @@ p{
 .mp{  
     direction: rtl;
     font-size: 32px;
-    color: rgb(255, 255, 255);
+    color: rgb(0 255 183);
     padding: 1px ;
     background-color:#272827ba;
     text-align: center;
