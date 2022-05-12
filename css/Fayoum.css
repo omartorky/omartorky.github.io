@@ -36,15 +36,14 @@ body {
  .mp{  
     direction: rtl;
     font-size: 32px;
-    color: rgb(255, 255, 255);
     padding: 1px ;
     background-color:#272827ba;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.774);color: aliceblue;
+    color: rgb(0 255 183);
  }
  h4{
     text-align: center;
-    color: antiquewhite;
+    color: rgb(29, 5, 151);
     font-size: 90px;
    }
 hr{
